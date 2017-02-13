@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+    
+
+Quicker - cut out all of the additional material - focused on single section to compare. Because it was returned in the search, we definitely knew there was a bug to be found. Made process less error-prone or open to mistakes being introduced elsewhere.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Pinpoint the version where the error was introduced - don't have to guess at what the right, working version would look like, could have a ready-made fix - could potentially roll back to that version - do some root cause analysis as to why the change was made - provide historical context: may have knock-on impacts 
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros
+Manage the size - logical chunks - avoids commits with too little change to be worth having or with too much change to manageable
+You may be able to remember the context/reason for the commit because you consciously have to do it yourself
+
+Cons
+You have to remember to do it, otherwise you could end up with too large a commit or - if your system crashes - no commit at all
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Meant for different media types - Documents usually only worked on singly - less interrelations and less complexity - so can be committed singly
+Simpler to use -> Simpler functions
+Some are meant for collaboration vs single use
+
+How can you use the commands git log and git diff to view the history of files?
+git log = the history of all commits - gives you different versions of the files
+git diff = pinpoints what was changed in which file
+
+How might using version control make you more confident to make changes that could break something?
+You can easily revert back to non-broken versions 
+You can pinpoint broken versions across a large number of files and then drill down into what caused the problem - and resolve it
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Controlling documentation files more closely - spotting where changes were made - moving to, and controlling, more sophisticated documentation outputs, beyond pdf and chm to html pages etc
