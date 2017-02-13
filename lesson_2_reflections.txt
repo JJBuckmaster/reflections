@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+You begin the process of creating metadata - you are telling git you want to keep a track of these files - who changed what and when
+Otherwise they just float around with no metadata being tagged
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Working directory = All the files you're working on
+Repository = All the files you've committed
+Staging area = intermediate area between them - can do incremental commits to group together logical groups of files all related to the same change e.g. bug fix = helps track back any problems
+Also helps with memory/processing - commits will be quicker incrementally than all files at once
