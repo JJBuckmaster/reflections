@@ -7,3 +7,14 @@ Working directory = All the files you're working on
 Repository = All the files you've committed
 Staging area = intermediate area between them - can do incremental commits to group together logical groups of files all related to the same change e.g. bug fix = helps track back any problems
 Also helps with memory/processing - commits will be quicker incrementally than all files at once
+
+How can you use the staging area to make sure you have one commit per logical change?
+By using git add on a regular basis as you change the different files involved in the logical change, but only using git commit after you've changed all of the files for that change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Different language versions
+New team members not familiar with code - higher risk of breakage
+When working on patches while also doing new development work in a master version
+Different customer versions
+Good for refactoring/performance improvements
+
