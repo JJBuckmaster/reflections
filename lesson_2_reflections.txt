@@ -18,3 +18,7 @@ When working on patches while also doing new development work in a master versio
 Different customer versions
 Good for refactoring/performance improvements
 
+How do the diagrams help you visualize the branch structure?
+Trace lines/parentage - which commits made it into which branch
+See a range of commits across different branches - spot points of convergence and points of divergence
+Quickly see how different a branch is - how many commits between branches
