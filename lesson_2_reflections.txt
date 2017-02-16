@@ -22,3 +22,6 @@ How do the diagrams help you visualize the branch structure?
 Trace lines/parentage - which commits made it into which branch
 See a range of commits across different branches - spot points of convergence and points of divergence
 Quickly see how different a branch is - how many commits between branches
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Overlay/interleave the changes from two branches over each other at a particular point in time - the two branches still exist (unless they are deleted) 
