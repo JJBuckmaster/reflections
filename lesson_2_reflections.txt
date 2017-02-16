@@ -25,3 +25,7 @@ Quickly see how different a branch is - how many commits between branches
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Overlay/interleave the changes from two branches over each other at a particular point in time - the two branches still exist (unless they are deleted) 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Auto merging cuts out merging files that are the same
+Manual merging means you can make decisions about which commit to use depending on your requirements
