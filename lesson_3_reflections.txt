@@ -1,1 +1,3 @@
 When would you want to create a remote repository rather than keeping all your work local?
+To allow other people to work on it
+To allow you to work remotely e.g. away from your main machine
