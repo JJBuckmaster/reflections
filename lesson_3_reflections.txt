@@ -5,3 +5,8 @@ To allow you to work remotely e.g. away from your main machine
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 The remote repository might be being used by someone working on experimental work
 The remote repository might try to overwrite changes being worked on locally - cause conflicts
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks = A fork is a branch that is not expected to be merged upstream. Copy of a branch that sits within GitHub but has no connection to the master. Forking a repository allows you to freely experiment with changes without affecting the original project.
+Clones = Copy of a branch that sits locally but has no connection to the master. You now have a new repository on your machine and any commits you make go into that repository. Nobody will see any changes until you push those commits to another repository (or the original one) or until someone pulls commits from your repository, if it is publicly accessible.A branch is something that is within a repository. Conceptually, it represents a thread of development.
+Branches = A separate thread within a repository that can be worked on separately to the original, 'master' branch and then merged back in later - used to keep a close connection to the original code.
