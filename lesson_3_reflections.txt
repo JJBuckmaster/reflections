@@ -10,3 +10,9 @@ Describe the differences between forks, clones, and branches. When would you use
 Forks = A fork is a branch that is not expected to be merged upstream. Copy of a branch that sits within GitHub but has no connection to the master. Forking a repository allows you to freely experiment with changes without affecting the original project.
 Clones = Copy of a branch that sits locally but has no connection to the master. You now have a new repository on your machine and any commits you make go into that repository. Nobody will see any changes until you push those commits to another repository (or the original one) or until someone pulls commits from your repository, if it is publicly accessible.A branch is something that is within a repository. Conceptually, it represents a thread of development.
 Branches = A separate thread within a repository that can be worked on separately to the original, 'master' branch and then merged back in later - used to keep a close connection to the original code.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+As a fail-safe for conflicts
+To easily pick up from when others make changes while you are offline
+Can use to compare with master to check how out-of-sync you are
+
