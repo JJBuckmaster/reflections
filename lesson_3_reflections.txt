@@ -16,3 +16,6 @@ As a fail-safe for conflicts
 To easily pick up from when others make changes while you are offline
 Can use to compare with master to check how out-of-sync you are
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Easier = 
+Harder = can't work on same file, history of changes not easily accessible, collaboration would have to be carefully choreographed and communicated
