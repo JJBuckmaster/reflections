@@ -19,3 +19,6 @@ Can use to compare with master to check how out-of-sync you are
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Easier = 
 Harder = can't work on same file, history of changes not easily accessible, collaboration would have to be carefully choreographed and communicated
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When there are a number of variables at play - multiple authors, multiple solutions to same problem (e.g. different ingredients)
